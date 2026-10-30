@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#160e24">
+  <meta name="description" content="World of Horror PC reference: mystery endings, achievement requirements, and run endings, with source notes and a local completion checklist.">
+  <title>World of Horror. — The 100% Unofficial Strategy Guide</title>
+  <link rel="icon" href="assets/eye.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the guide</a>
+  <header class="site-header">
+    <div class="header-ribbon"><span>FROM THE DARK CORNERS OF SHIOKAWA</span><span>A WORLD OF HORROR FAN SITE</span></div>
+    <img class="occult-eye" src="assets/occult-eye.svg" width="160" height="160" alt="Pixel art occult eye">
+    <div class="masthead-copy">
+    <h1><a class="wordmark" href="#mysteries">World of Horror.</a></h1>
+    <p class="blog-subtitle">The 100% Unofficial Strategy Guide</p>
+    <p class="blog-byline">by PeripheralMike / WholesomeHorrorGaming.</p>
+    <p class="blog-platform">Built for the PC version but should work on consoles too.</p>
+    </div>
+    <div class="header-stamp" aria-hidden="true">ENTER<br>AT YOUR<br>OWN RISK<span>✦ ✦ ✦</span></div>
+    <div class="welcome-strip"><strong>WELCOME, INVESTIGATOR.</strong> The world is ending. You might as well get every achievement.</div>
+  </header>
+  <main id="main">
+    <div class="page-intro">
+      <div><h2>The investigation log</h2><p>Look up a route, check its requirements, and keep track of what you’ve found.</p></div>
+      <a class="version-link" href="#sources">PC 1.0 / 1.01 reference<span>Sources checked 30 October 2026</span></a>
+    </div>
+    <section id="stats" class="stats" aria-label="Guide totals and your progress"></section>
+    <section id="archive" class="archive" aria-label="Game reference">
+      <nav class="tabs" aria-label="Guide sections">
+        <a href="#mysteries" data-view="mysteries">Mysteries <span>21</span></a>
+        <a href="#achievements" data-view="achievements">Achievements <span>96</span></a>
+        <a href="#fates" data-view="fates">Run endings <span>21</span></a>
+        <a href="#sources" data-view="sources">Sources & accuracy</a>
+      </nav>
+      <div class="toolbar">
+        <label class="search-box"><span class="sr-only">Search the current section</span><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="m12 12 5 5"/></svg><input id="search" type="search" placeholder="Search mysteries…" aria-label="Search the current archive section"><kbd>/</kbd></label>
+        <label class="select-wrap" id="timeline-wrap">Timeline<select id="timeline"><option value="Any">A & B</option><option value="A">A · World of Horror</option><option value="B">B · Occult Capital</option></select></label>
+        <label class="select-wrap">Spoilers<select id="spoilers"><option value="full">Show all</option><option value="hints">Hints</option><option value="hidden">Hide details</option></select></label>
+      </div>
+      <div id="content"></div>
+    </section>
+  </main>
+  <footer>
+    <div class="web-buttons" aria-label="About this fan site"><span>100%<br>UNOFFICIAL</span><span>BEST VIEWED<br>AFTER DARK</span><span>NO ADS.<br>JUST HORROR.</span></div>
+    <p>Unofficial fan reference. WORLD OF HORROR © panstasz / Ysbryd Games.</p>
+    <p>Your checklist stays in this browser. <a href="#sources">Sources, limitations & credits</a></p>
+  </footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p>This interactive guide needs JavaScript. Read the <a href="data.json">dataset</a> or <a href="RESEARCH.md">research notes</a>.</p></noscript>
+</body>
+</html>
