@@ -34,6 +34,10 @@ python -m http.server 4173 --bind 127.0.0.1
 
 ## Host on GitHub Pages
 
+This repository publishes automatically through `.github/workflows/pages.yml` when changes are pushed to `main`. The workflow validates the reference data before deploying. Its Pages source is **GitHub Actions**.
+
+For a new copy without the included workflow, branch publishing is also supported:
+
 1. Create a GitHub repository, or use an existing repository intended for this site.
 2. Put the contents of this folder at the repository root. `index.html` must be at the root. Include `.nojekyll`.
 3. Commit and push the files to `main`.
